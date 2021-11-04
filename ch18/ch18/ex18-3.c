@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main(void) {
@@ -17,4 +18,4 @@ int main(void) {
 	}
 	fputc('\n', fp);
 	fclose(fp);
-}
+} 
